@@ -1,0 +1,32 @@
+/* Basic styling for the editor container */
+.DraftEditor-root {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 16px;
+  padding: 15px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+
+/* Style for bold text */
+.public-DraftStyleDefault-bold {
+  font-weight: bold;
+}
+
+/* Custom style for text with a red line (this will be a custom style map in React) */
+.redLine {
+  text-decoration: line-through;
+  text-decoration-color: red;
+}
+
+/* Custom style for underlined text */
+.public-DraftStyleDefault-underline {
+  text-decoration: underline;
+}
+
+/* You might need to adjust this if you implement a custom block for headings */
+.public-DraftStyleDefault-header-one {
+  font-size: 24px;
+  font-weight: bold;
+}
